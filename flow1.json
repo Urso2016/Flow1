@@ -1,0 +1,55 @@
+[
+    {
+        "id": "0e8114e9d155d826",
+        "type": "tab",
+        "label": "Ejercicio 1",
+        "disabled": true,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "755678653baebc0a",
+        "type": "inject",
+        "z": "0e8114e9d155d826",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "10",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "HOLA MUNDO",
+        "payload": "",
+        "payloadType": "date",
+        "x": 240,
+        "y": 100,
+        "wires": [
+            [
+                "38116895cb748415"
+            ]
+        ]
+    },
+    {
+        "id": "38116895cb748415",
+        "type": "debug",
+        "z": "0e8114e9d155d826",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 470,
+        "y": 100,
+        "wires": []
+    }
+]
